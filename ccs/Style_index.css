@@ -1,0 +1,118 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+main {
+    width: 90%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #DEE9F3;
+    background-color:#F2B749;
+	
+}
+header, nav, section, main, footer{
+    width:90%;
+    text-align:center;
+    margin: 0 auto;
+	
+  
+}
+
+header  {
+    background-color:#04BFBF;
+    width: 90%;
+    color:#26141B;
+    text-align: center;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 30px;
+    border-top-right-radius: 0px;
+    margin-bottom: 0px;
+	height: 140px;
+	display: flex;
+}
+section{
+	align-content: center;
+	margin-bottom: 40px;
+    background-color: #1BBFBF;
+    border: 5px solid #F5DEDE;
+    width: 60%;
+	height: 603px;
+}
+footer h5, h6 {
+    margin-top: auto;
+    width:auto;
+    color:aliceblue;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: oblique;
+    list-style-position:inside;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul {
+    height: 30px;
+	text-align: center;
+	
+}
+nav ul li {
+    display: inline-block;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding-top: 10px;
+	text-align: center;
+ 
+}
+nav   {
+    background-color:#D94848;
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 100px;
+}
+footer {
+    height: 100px;
+	background-color:#26141B;
+    
+}
+a:link{
+	color:moccasin;
+	text-decoration: none;
+}
+a:visited{
+	color:#F5DEDE;
+	font-weight: bolder;
+}
+a:hover{
+	color:#57CDD9;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+
+.contenedor_flex{
+	display: flex;	
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.contenedor_flex > div{
+	width: 400px;
+	height: 50px;
+	background-color:lightskyblue;
+	margin: 10px;
+	padding: 30px;
+	font-size: 32px;
+	text-align: center;
+}
+.Img-1 {
+    display: block;
+    width: 432px;
+    height: 540px;
+    border-top-left-radius: 65px;
+    margin: auto;
+    padding-top: 0px;
+}
