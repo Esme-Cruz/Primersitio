@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FORMULARIO</title>
+<link href="../ccs/Style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+	  <h1> Formulario en html5</h1>
+	</header>	
+<nav>
+		<ul>
+	<li><a href="index.html">INICIO</a></li>
+    <li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="listas.html">Listas</a></li>
+    <li><a href="Enlaces.html">Enlaces</a></li>
+	<li><a href="Imágenes.html">Imagenes</a></li>
+	<li><a href="Audio.html">Audio</a></li>
+	<li><a href="Video.html">Video</a></li>
+	<li><a href="Animación.html">Animación</a></li>	
+	<li><a href="Formulario.html">Formulario</a></li>
+	<li><a href="Flexbox.html">Flexbox</a></li>
+	
+  </ul>
+	<ul>
+	  <li><a href="#Link-1">Formulario simple</a></li>
+	  <li><a href="#Link-2">Formulario usando radiobutton</a></li>
+	  <li><a href="#Link-3">Formulario organizado dentro de tabla</a></li>
+	  <li><a href="#Link-4">Formulario usando checkbox</li>
+	  <li><a href="#Link-5">Formulario de opciones visibles</li>
+	<li><a href="#Link-6">Formulario de área de texto</li>
+	<li><a href="#Link-7">Formulario de lista</li>
+	<li><a href="#Link-8">Formulario de botón</li>
+	  <li><a href="#Link-9" id="Link-9">Formulario de barra de selección</a></li>
+	</ul>
+	</nav>
+	<main>
+		<section id="Link-1">
+			<h2>Formulario simple</h2>
+		  <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aspernatur sint repellat dignissimos ratione sit quas hic expedita dicta quo. Molestias, quia, vero. Facere adipisci aperiam esse blanditiis cupiditate molestiae, quae, inventore pariatur saepe sit.</p>
+			<form action="Acción.html" method="get">
+			 <label>Nombre</label>
+		   	<input type="text" id="nombre" name="nombre"><br>
+			<label>Apellidos</label>
+			<input type="text" id="apellidos" name="apellidos"><br>
+			<input type="submit" value="Enviar">
+			</form>
+		</section>
+		<section id="Link-2">
+			<h2>Formulario usando radiobutton</h2>
+			 <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aspernatur sint repellat dignissimos ratione sit.</p>
+		  <form action="Acción.html" id="form1" name="form1" method="get">
+			<label for="textfield">Nombre:</label>
+		   	<input type="text" id="textfield" name="textfield"><br>
+			<label for="textfield2">Apellidos:</label>
+			<input type="text" id="textfield2" name="textfield2"><br>
+			<label><br>Genero </label>
+			<input name="radio" type="radio" id="radio" title="Genero" value="Femenino">
+			<label for="radio">Femenino&nbsp;</label>
+			<input type="radio" name="radio2" id="radio2" value="radio2">
+			  <label for="radio2">Masculino</label><br>
+			<input name="submit" type="submit" id="submit" formmethod="GET" value="Enviar"><br>
+		  </form>
+		</section>
+		<section id="Link-3">
+		  <h2>Formulario organizado dentro de tabla</h2>
+		  <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aspernatur sint repellat dignissimos ratione sit quas.</p>
+			<form action="Acción.html">
+			<table width="50%%" border="0">
+  <tbody>
+    <tr>
+      <td><label for="nombre">Nombre</label></td>
+      <td><input type="text" id="nombre" name="nombre"></td>
+    </tr>
+    <tr>
+      <td><label for="apellidos">Apellidos</label></td>
+      <td><input type="text" id="apellidos" name="apellidos"></td>
+    </tr>
+    <tr>
+     <td><label for="edad">Edad</label></td>
+      <td><input type="number" id="edad" name="edad"></td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="ENVIAR"></td>
+    </tr>
+  </tbody>
+</table>
+			</form>
+		</section>
+		<section id="Link-4">
+		  <h2>Formulario usando checkbox y otros</h2>
+		  <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		   <form action="Acción.html" id="form1" name="form1" method="get">
+			<label for="textfield">Nombre:</label>
+		   	<input type="text" id="textfield" name="textfield"><br>
+			<label for="textfield2">Apellidos:</label>
+			<input type="text" id="textfield2" name="textfield2"><br>
+			<label><br>Genero </label>
+			<input name="radio" type="radio" id="radio" title="Genero" value="Femenino">
+			<label for="radio">Femenino&nbsp;</label>
+			<input type="radio" name="radio2" id="radio2" value="radio2">
+			<label for="radio2">Masculino</label>
+			<p> 
+			<label>Elige de la lista el genero musical que más te guste</label><br>
+			<label>
+				<input type="checkbox" name="musicafavorita" value="pop" id="musicafavorita_0">
+				Pop</label>
+				<br>
+				<input type="checkbox" name="musicafavorita" value="rock" id="musicafavorita_1">
+				Rock</label>
+				<br>
+				<input type="checkbox" name="musicafavorita" value="Jazz" id="musicafavorita_2">
+				Jazz</label>
+				<br>
+				<input type="checkbox" name="musicafavorita" value="K-pop" id="musicafavorita_3">
+				Kpop</label>
+				<br>
+				<input type="checkbox" name="musicafavorita" value="Disco" id="musicafavorita_4">
+				Disco</label>
+				<br>
+			   </p>
+				<label for="pais"> Nacionalidad:</label>
+				<select name="pais" id="pais">
+				<option value="Argentina">Argentina</option>
+				<option value="Costa Rica">Costa Rica</option>
+				<option value="México">México</option>
+				<option value="Francia">Francia</option>
+				<option value="Colombia">Colombia</option>
+				</select><br>
+				<input name="submit" type="submit" id="submit" formmethod="GET" value="Enviar">
+		  </form>
+		</section>	
+		<section id="Link-5">
+		  <h2>Opciones visibles</h2>
+		  <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aspernatur sint repellat dignissimos ratione sit quas hic expedita dicta quo. Molestias, quia, vero. Facere adipisci aperiam esse blanditiis cupiditate molestiae, quae, inventore pariatur saepe sit.</p>
+			<form action="Acción.html">
+  <label for="Colorfavorito" class="parrafo_formulario">Elige tu color favorito:</label>
+  <select id="Colorfavorito" name="colorfavorito" size="5">
+    <option value="Aamarillo">Amarillo</option>
+    <option value="Rojo">Rojo</option>
+    <option value="Naranja">Naranja</option>
+    <option value="Azul">Azul</option>
+	<option value="Morado">Morado</option>
+    <option value="Dorado">Dorado</option>
+    <option value="Negro">Negro</option>
+  </select><br><br>
+  <input type="submit" type="submit" id="submit" formmethod="GET" value="Enviar">
+</form>
+		</section>
+		<section id="Link-6">
+		  <h2>Formulario de área de texto</h2>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aspernatur sint repellat dignissimos ratione sit quas hic expedita dicta quo. Molestias, quia, vero. .</p><br>
+			<label>Escribe cosas que NO te gustan</label><br>
+			<form action="Acción.html" method="get">
+			 <textarea name="message" rows="10" cols="30">Las cosas que no me gustan son:</textarea>
+  <br><br>
+  <input type="submit" type="submit" id="submit" formmethod="GET" value="Enviar">
+</form>
+		</section>
+		<section id="Link-7">
+		  <h2>Formulario de lista</h2>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aspernatur sint repellat dignissimos ratione sit quas hic expedita dicta quo. Molestias, quia, vero.</p>
+			<form action="Acción.html"><br>
+			<label>De la siguiente lista, elige a tu animal favorito</label><br>
+ 			 <input list="Animales" name="Animales">
+			  <datalist id="Animales">
+				<option value="León">
+				<option value="Aguila">
+				<option value="Serpiente">
+				<option value="Tiburón">
+				<option value="Gato">
+			  </datalist><br>
+			  <input type="submit" id="submit" formmethod="GET" value="Enviar">
+			</form>
+
+<p><b>Nota:</b> Puede ser el animal con el que te sientas más identificado</p>
+		
+		</section>
+<section id="Link-8">
+	<h2>Formulario de botón</h2>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aspernatur sint repellat dignissimos ratione sit quas hic expedita dicta quo. Molestias, quia, vero. Facere adipisci aperiam esse blanditiis cupiditate molestiae, quae, inventore pariatur saepe sit.</p>
+			<form action="Acción.html" method="get">
+				<label>Elige de la lista la respuesta que crees correcta</label><br>
+			<label>
+				<input type="checkbox" name="respuesta" value="Español" id="respuesta_0">
+				Español</label>
+				<br>
+				<input type="checkbox" name="respuesta" value="Matemáticas" id="respuesta_1">
+				Matemáticas</label>
+				<br>
+				<input type="checkbox" name="respuesta" value="Física" id="respuesta_2">
+				Física</label>
+				<br>
+				
+			 <label>Si requieres ver de nuevo la información </label>
+				<button action="" type="button" onclick="alert('vas a visualizar un documento en vivo')">Presiona aquí!</button><br>
+			<input type="submit" value="Enviar">
+			</form>
+		</section>
+		<section id="Link-9">
+		  <h2>Formulario de barra de selección</h2>
+		  <p>Lorem ipsum dolor sit amet. Facere adipisci aperiam esse blanditiis cupiditate molestiae, quae, inventore pariatur saepe sit.</p><br>
+			 <label>Selecciona el porcentaje de tu carrera</label>
+			
+			<form action="Acción.html" method="get">
+			 oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+			  0
+				
+			  <input type="range" id="a" name="a" value="50">
+			  100 +
+			  <input type="number" id="b" name="b" value="50">
+			  =
+			  <output name="x" for="a b"></output>
+			  <br><br>
+			  <input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+	<footer>
+	<h5>Elaborado por: Esmeralda Reyes Cruz</h5>
+</footer>		
+</body>
+</html>
